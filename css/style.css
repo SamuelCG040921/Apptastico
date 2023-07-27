@@ -276,27 +276,134 @@ footer{
     margin-right: 5px;
 }
 
-@media screen and (max-width:480px) {
-   
-    .celular{
-        width: 50%;
-        padding-top: 40px;
-        padding-left: 40px;
-    }
+@media screen and (max-width: 480px) {
+    
     .parte2{
-        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .celular{
+        width: 400px;
+        width: 420px;
+        padding-right: 130px;
     }
     .parr{
         display: flex;
-        flex-wrap: wrap;
-        margin-right: 200px;
-        width: 50%;
-        height: 50px;
-        font-size: 15px;
-        font-weight: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 475px;
+        font-size: 9px;
+        line-height: 15px;
+        padding: 50px 50px 30px 50px;
     }
-    .parr h2{
-        font-weight: none;
+    .IOS{
         font-size: 20px;
+    }
+    .botones{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 479px;
+        padding-right: 0;
+    }
+    .enlace{
+        width: 100px;
+    }
+    .request{
+        width: 100px;
+    }
+    .cabecera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 479px;
+        height: 100px;
+    }
+    .logo{
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    nav{
+        margin-left: 120px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 360px;
+    }
+    .parte41{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        justify-content: center;
+        align-items: center;
+    }
+    .parte4{
+        height: 330px;
+        margin-bottom: 30px;
+    }
+    .imagens{
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+    }
+    .read{
+        height: 50px;
+    }
+    .centrar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenc{
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    #si{
+        margin-top: 30px;
+        margin-left: 65px;
+    }
+    #si2{
+        margin-right: 50px;
+    }
+    .partenaranja{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    .naranja1{
+        margin-left: 40px;
+        margin-right: 0;
+
+    }
+    .naranja2{
+        margin: 0;
+        margin-left: 40px;
+    }
+    .tin{
+        display: flex;
+        flex-direction: column;
+    }
+    .llamada{
+        margin-bottom: 10px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .redes{
+        margin: 0;
+        margin-left: 15px;
+    }
+    .samuel{
+        margin-right: 70px;
     }
 }

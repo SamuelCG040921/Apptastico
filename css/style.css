@@ -285,8 +285,7 @@ footer{
         justify-content: center;
     }
     .celular{
-        width: 400px;
-        width: 420px;
+        width: 390px;
         padding-right: 130px;
     }
     .parr{
@@ -294,7 +293,7 @@ footer{
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 475px;
+        width: 390px;
         font-size: 9px;
         line-height: 15px;
         padding: 50px 50px 30px 50px;
@@ -303,10 +302,9 @@ footer{
         font-size: 20px;
     }
     .botones{
-        display: flex;
+        width: 272px;
         align-items: center;
         justify-content: center;
-        width: 479px;
         padding-right: 0;
     }
     .enlace{
@@ -320,7 +318,6 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 479px;
         height: 100px;
     }
     .logo{
@@ -334,7 +331,7 @@ footer{
         align-items: center;
         justify-content: center;
         height: 30px;
-        width: 360px;
+        width: 190px;
     }
     .parte41{
         display: flex;
@@ -406,4 +403,58 @@ footer{
     .samuel{
         margin-right: 70px;
     }
+    .shape{
+        padding-right: 0;
+    }
 }
+@media screen and (max-width: 768px) {
+
+    .parte2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .celular{
+            padding-right: 130px;
+     }
+    .parr{
+        padding-right: 130px;
+        padding-bottom: 50px;
+    }
+    .parte4{
+        width: 250px;
+        
+    }
+    .letra{
+        width: 250px;
+    }
+    .centrar{
+        display: flex;
+        flex-direction: column;
+    }
+    #si{
+        margin-left: 60px;
+    }
+    #si2{
+        margin-left: 215px;
+    }
+    .shape{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 120px;
+        width: 400px;
+    }
+    .botones{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .botones{
+        width: 600px;
+    }
+}
+
